@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Basics - Internal & External</title>
-</head>
-<body>
-    <div>
-        <h2>JavaScript Basics - Internal & External</h2>
-    </div>
-</body>
-<!-- Internal -->
-<!-- <script>
-    console.log("Hello World !");
-</script> -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript form validation - checking all numbers</title>
+    </head>
+    <body>
+        <h2>Input Phone No.[xxxxxxxxxx] and submit</h2>
+        <form name="form1">
+            <table>
+                <tr>
+                    <td>Enter Your Phone Numbers</td>
+                    <td><input type="text" name="text1"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" value="submit" onclick="return phonenumber(document.form1.text1)"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+    <!-- Internal -->
+    <!-- <script type="text/javascript" language="javascript">
+    </script> -->
 
-<!-- External -->
-<script src="./index.js"></script>
+    <!-- External -->
+    <script src="./index.js"></script>
+    <script src="./js.js"></script>
 </html>
